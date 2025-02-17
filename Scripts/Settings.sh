@@ -42,7 +42,7 @@ if [[ $WRT_BRANCH != *"21"* ]]; then
 	echo "CONFIG_PACKAGE_luci-app-upnp=n" >> ./.config
 	echo "CONFIG_PACKAGE_miniupnpd=n" >> ./.config
 
-	echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> ./.config
-	echo "CONFIG_PACKAGE_luci-app-nikki=y" >> ./.config
+	echo "CONFIG_PACKAGE_luci-app-homeproxy=n" >> ./.config
+	echo "CONFIG_PACKAGE_luci-app-nikki=n" >> ./.config
 	echo "CONFIG_PACKAGE_luci-app-upnp-mtk-adjust=y" >> ./.config
 fi
