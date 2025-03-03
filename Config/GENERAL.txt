@@ -17,8 +17,9 @@ CONFIG_PACKAGE_luci-app-turboacc-mtk=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 CONFIG_PACKAGE_luci-app-smartdns=y
 CONFIG_PACKAGE_luci-app-dnsfilter=y
+CONFIG_PACKAGE_luci-app-partexp=y
+
 #删除插件
-CONFIG_PACKAGE_luci-app-partexp=n
 CONFIG_PACKAGE_luci-app-ddns=n
 CONFIG_PACKAGE_luci-app-vlmcsd=n
 CONFIG_PACKAGE_luci-app-wolplus=n
@@ -31,3 +32,5 @@ CONFIG_PACKAGE_luci-app-filetransfer=n
 CONFIG_PACKAGE_luci-app-unblockmusic=n
 CONFIG_PACKAGE_luci-app-accesscontrol=n
 CONFIG_PACKAGE_luci-app-fileassistant=n
+CONFIG_PACKAGE_luci-app-usb-printer=n
+CONFIG_PACKAGE_luci-i18n-usb-printer-zh-cn=n
