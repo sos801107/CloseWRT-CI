@@ -64,7 +64,7 @@ UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
 
 UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
-UPDATE_PACKAGE "luci-app-dnsfilter" "kenzok8/openwrt-packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
