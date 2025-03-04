@@ -5,9 +5,7 @@ name: CWRT-ALL
 on:
   #自动编译：每周早上6点
   schedule:
-  #  - cron: 0 22 * * 0
-   - cron: 0 16 * * *
-
+    - cron: 0 22 * * 0
   #手动编译
   workflow_dispatch:
     inputs:
@@ -65,13 +63,13 @@ jobs:
       #默认主题
       WRT_THEME: argon
       #默认主机名
-      WRT_NAME: OpenWrt
+      WRT_NAME: CWRT
       #默认WIFI名称
-      WRT_SSID: ImmortalWrt
+      WRT_SSID: CWRT
       #默认WIFI密码
-      WRT_WORD: 
+      WRT_WORD: 12345678
       #默认地址
-      WRT_IP: 192.168.1.2
+      WRT_IP: 192.168.10.1
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #源码链接
