@@ -60,6 +60,7 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
+UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
 
