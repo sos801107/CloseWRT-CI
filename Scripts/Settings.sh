@@ -13,8 +13,8 @@ mkdir -p files/root
 wget -qO- https://raw.githubusercontent.com/sos801107/TL-XDR608X/refs/heads/main/etc/.profile > files/root/.profile
 
 #修改WIFI
-#mkdir -p files/lib/modules/5.4.284
-#wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mt_wifi.ko > files/lib/modules/5.4.284/mt_wifi.ko
+mkdir -p files/lib/modules/5.4.284
+wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mt_wifi_2.ko > files/lib/modules/5.4.284/mt_wifi.ko
 #wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mtkhnat.ko > files/lib/modules/5.4.284/mtkhnat.ko
 
 #修改默认主题
