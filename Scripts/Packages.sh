@@ -40,6 +40,7 @@ UPDATE_PACKAGE() {
 	fi
 }
 rm -rf feeds/packages/net/sing-box
+#rm -rf package/openwrt-passwall-packages/xray-core
 
 # 调用示例
 # UPDATE_PACKAGE "OpenAppFilter" "destan19/OpenAppFilter" "master" "" "custom_name1 custom_name2"
@@ -55,7 +56,7 @@ UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
-UPDATE_PACKAGE "openwrt-passwall-packages" "xiaorouji/openwrt-passwall-packages" "main" "" "sing-box"
+UPDATE_PACKAGE "openwrt-passwall-packages" "sos801107/packages" "main" "" "sing-box"
 
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
@@ -73,7 +74,6 @@ UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base q
 UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-rm -rf package/openwrt-passwall-packages/xray-core
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
